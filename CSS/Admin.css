@@ -1,0 +1,45 @@
+body{
+    margin: 0%;
+    padding: 0px;
+    background-image: url('../Assets/admin2.jpg');
+    background-size: cover;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    font-family: 'Popins',sans-serif;
+    margin-top: 20px;
+    /* border: 1px solid white; */
+    padding: 20px;
+    /* backdrop-filter: blur(2px); */
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+
+#container::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    width: 180px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    color: white;
+    border: 1px solid white;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 5px;
+    width: max-content;
+    margin: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}

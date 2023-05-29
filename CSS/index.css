@@ -1,0 +1,103 @@
+body{
+    background-image: url('../Assets/index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    width: 450px;
+    box-shadow: #00000029 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top:5rem;
+    padding: 10px;
+    font-family: 'Popins',sans-serif;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+#register{
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+}
+#login{
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+}
+
+#loading{
+    color: white;
+}
+
+#loading2{
+    color: white;
+}
+input{
+    width: 320px;
+    padding: 15px;
+    margin: auto;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+}
+input:focus{
+    background-color: rgb(196, 224, 248);
+}
+
+.submit{
+    border: none;
+    background-color: #5ba318;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(23, 134, 12);
+}
+.submit:focus{
+    cursor: pointer;
+    background-color: rgb(23, 134, 12);
+}
+
+#verify{
+    margin: auto;
+    width: 350px;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;
+}
+#otp{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#btnCont{
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+}
+button{
+    width: 150px;
+    padding: 15px;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    background-color: rgb(43, 240, 191);
+    border-radius: 5px;
+}
+button:focus{
+    background-color: #24a12a;
+    color: white;
+}
+label{
+    color: white;
+}

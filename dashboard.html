@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/dashboard.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <!-- header -->
+        <nav id="navbar">
+            <div id="acc-cont">
+               <i class="material-icons" style="font-size:36px;cursor:pointer;" onclick="showInfo()">person</i>
+               <div id="owner-info">
+
+               </div>
+            </div>
+
+            <div id="wel-cont">
+              <h1>Hi, welcome to ML Models's dashboard</h1>
+            </div>
+
+            <div id="log-cont">
+                <i class="fa fa-sign-out" style="font-size:36px;cursor: pointer;" onclick="logout()"></i>
+            </div>
+        </nav>
+
+        <!-- main body -->
+
+        <div id="main-body">
+
+            <div id="left-cont">
+
+                <div id="btn-cont">
+                    <p>Machine Model</p>
+                    <button class="classification" onclick="showClass()">Classification</button>
+                    <button class="regression" onclick="showReg()">Regression</button>
+                </div>
+
+                <div id="content-cont">
+                    Machine learning models are algorithms that are designed to learn patterns and make predictions or decisions based on data. They are a key component of machine learning, a branch of artificial intelligence. 
+                    For example, Linear Regression is used for predicting a continuous output variable based on one or more input variables. It assumes a linear relationship between the input and output variables.
+                </div>
+
+            </div>
+
+            <div id="right-cont">
+
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="./scripts/dashboard.js"></script>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Document</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="btnCont">
+            <button id="showLogin">Login</button><button id="showRegister">Register</button>
+        </div>
+        <div>
+            <form action="" id="register">
+                <label for="name">Name</label>
+                <input type="text" placeholder="name" id="name" required>
+                <label for="email">Email</label>
+                <input type="email" placeholder="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" placeholder="password" id="password" required/>
+                <label for="password">Confirm password</label> 
+                <input type="password" placeholder="confirm password" id="rePass" required/>
+                <input class="submit" type="submit" value="submit"/>
+            </form>
+
+            <form id="verify">
+                <h2>Verification</h2>
+                <input type="text" placeholder="OTP" id="otp" required>
+                <p>Verify OTP sent to your email</p>
+                <input class="submit" type="submit" value="Verify"/>
+                <p id="loading">Loading...</p>
+            </form>
+        
+            <form action="" id="login">
+                <label for="email">Email</label>
+                <input type="email" placeholder="email" id="email">
+                <label for="password">Password</label>
+                <input type="password" placeholder="password" id="password"/>
+                <input class="submit" type="submit" value="submit"/>
+                <p id="loading2">Loading...</p>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./scripts/index.js"></script>
+</html>
