@@ -44,7 +44,7 @@ function submit(e) {
        <h2>Your OTP is ${otp}</h2>`;
 
       Email.send({
-        SecureToken: "79c7775a-a7e1-45b9-8a0f-13f20c5cc943",
+        SecureToken: "90e83a7f-f8ef-4032-8a52-62a661bd9af1",
         To: data.email,
         From: "piyushpratapsingh8@gmail.com",
         Subject: "OTP",
